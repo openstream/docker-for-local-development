@@ -27,7 +27,7 @@ services:
         expose:
             - 9000
         volumes:
-            - .:/var/www/html
+            - ./public_html:/var/www/html
 
 ###########################
 # Setup the testing container
